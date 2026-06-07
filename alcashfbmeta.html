@@ -9,8 +9,15 @@
 
     <style amp-custom>
       body { margin: 0; font-family: Arial, sans-serif; }
-      .wrap { padding: 20px; }
-      .main-image { width: 100%; max-width: 900px; }
+      .wrap { padding: 0; }
+      .hero {
+        width: 100%;
+        display: block;
+      }
+      amp-img {
+        width: 100%;
+        height: auto;
+      }
     </style>
 
     <title>My PICS</title>
@@ -27,11 +34,12 @@
   <body>
     <div class="wrap">
       <amp-img
+        class="hero"
         src="https://scontent-lax.cdninstagram.com/v/t1.15752-9/710077916_2295887230948259_8111086966016450609_n.webp?stp=dst-jpg_s480x480_tt6&_nc_cat=106&ccb=1-7&_nc_sid=0024fc&_nc_ohc=7bS-RwR4iJ4Q7kNvwHsQPL7&_nc_oc=AdrLAg1LwjjMhBdOSwbPNV5tQmovsFvdFcAjanLMfWi9aUEKbhLfTzLm50kTEGg-6rk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.fkhi6-2.fna&_nc_ss=7a22e&oh=03_Q7cD5gGffWGEr3CrvCPKfFxr8tjrnMvuBk6fYVARDDyiL37bvQ&oe=6A4A3667"
         width="1200"
         height="630"
         layout="responsive"
-        alt="CDN image">
+        alt="Image">
       </amp-img>
     </div>
   </body>
